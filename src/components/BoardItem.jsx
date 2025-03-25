@@ -1,13 +1,13 @@
 const BoardItem = ({children}) => {
   return (
-    <article className="bg-slate-200 md:w-[20%] md:h-[150px] rounded-lg overflow-hidden">
+    <article className="border w-full min-h-[200px] md:w-[19%] md:h-[150px] rounded-lg overflow-hidden">
       {children}
     </article>
   )
 }
 
 BoardItem.Header = ({children}) => {
-  return <h1 className="bg-slate-400 p-3">{children}</h1>
+  return <h1 className="bg-slate-200 p-3 font-semibold">{children}</h1>
 }
 
 BoardItem.Body = ({children}) => {

@@ -7,7 +7,7 @@
 .light {
   --background: #fff;
   --secondary: #F7F6F3;
-  --primary-text: #787774;
+  --primary-text: #000;
 
   background: var(--background);
 }

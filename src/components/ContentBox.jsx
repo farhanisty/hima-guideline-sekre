@@ -1,21 +1,21 @@
 const ContentBox = ({children}) => {
   return (
-      <section className="mt-3">
-        {children}
-      </section>
+    <section className="mt-3 px-3 md:p-0 rounded border border-[#000]">
+      {children}
+    </section>
   )
 }
 
 ContentBox.Header = ({children}) => {
   return (
-    <header className="border-b flex justify-between">
+    <header className="border-b border-[#000] flex justify-between">
       {children}
     </header>
   )
 }
 
 ContentBox.Header.Title = ({children}) => {
-  return <h2 className="uppercase font-semibold text-xl mb-3">{children}</h2>
+  return <h2 className="uppercase font-semibold text-xl p-2">{children}</h2>
 }
 
 ContentBox.Header.Right = () => {
@@ -26,7 +26,7 @@ ContentBox.Header.Right = () => {
 
 ContentBox.Body = ({children}) => {
   return (
-    <div className="pt-3">
+    <div className="p-3">
       {children}
     </div>
   )
