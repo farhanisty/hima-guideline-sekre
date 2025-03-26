@@ -2,9 +2,11 @@ import Container from "../components/Container"
 import Card from "../components/Card"
 
 export default function ContactImportantFragment() {
-  return <Container>
-        <div className="flex gap-8 w-full">
-          <div className="flex gap-3 flex-col w-[40%]">
+  return (
+    <section className="py-[3rem]">
+      <Container>
+        <div className="flex flex-col md:flex-row gap-8 w-full">
+          <div className="flex gap-3 flex-col md:w-[40%]">
             <Card className="">
               <Card.Header title="Contact Person :" />
               <Card.Body>
@@ -27,7 +29,7 @@ export default function ContactImportantFragment() {
             </Card>
           </div>
 
-      <div className="w-[60%]">
+      <div className="md:w-[60%]">
         <h2 className="text-secondary text-[2rem] font-['Cormorant_Garamond'] font-bold italic">Important Things</h2>
         <ul className="list-disc flex flex-col gap-1">
           <li>Disarankan untuk mengajukan surat izin penggunaan tempat 21 hari sebelum kegiatan dilaksanakan ke Ruang Pelayanan Mahasiswa Fakultas Teknik Industri</li>
@@ -38,4 +40,6 @@ export default function ContactImportantFragment() {
       </div>
         </div>
       </Container>
+    </section>
+  )
 }
