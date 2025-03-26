@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "var(--primary)",
         background: "var(--background)",
         secondary: "var(--secondary)",
         primaryText: "var(--primary-text)"
