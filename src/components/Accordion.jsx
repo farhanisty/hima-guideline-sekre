@@ -59,7 +59,7 @@ Accordion.Body = React.forwardRef(
 			{...props}
 			ref={forwardedRef}
 		>
-			<div className="px-5 py-[15px]">{children}</div>
+			<div className="px-5 py-[15px] font-normal">{children}</div>
 		</RadixAccordion.Content>
 	),
 );
