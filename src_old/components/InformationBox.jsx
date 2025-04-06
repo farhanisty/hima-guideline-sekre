@@ -1,14 +1,15 @@
 const InformationBox = ({children}) => {
   return (
-    <div>
+    <div className="border border-[#000] my-3 rounded">
       {children}
     </div>
   )
 }
 
-InformationBox.Title = ({children}) => {
+InformationBox.Title = ({children, background = "bg-slate-200"}) => {
+
   return (
-    <h2 className="font-semibold bg-secondary d-block w-full p-2">{children}</h2>
+    <h2 className={`font-semibold ${background} d-block w-full p-2`}>{children}</h2>
   )
 }
 

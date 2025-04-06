@@ -1,17 +1,17 @@
 const BoardItem = ({children}) => {
   return (
-    <article className="bg-slate-200 md:w-[20%] md:h-[150px] rounded-lg overflow-hidden">
+    <div className="group bg-white rounded-xl p-5 hover:bg-secondary hover:text-white hover:-rotate-1 transition-transform">
       {children}
-    </article>
+    </div>
   )
 }
 
 BoardItem.Header = ({children}) => {
-  return <h1 className="bg-slate-400 p-3">{children}</h1>
+  return <h2 className="group-hover:text-white font-semibold text-secondary text-lg">{children}</h2>
 }
 
 BoardItem.Body = ({children}) => {
-  return <div className="p-3 text-xs">{children}</div>
+  return <div className="pt-2">{children}</div>
 }
 
 export default BoardItem;
