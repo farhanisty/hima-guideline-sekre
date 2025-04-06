@@ -34,7 +34,7 @@ export default function TermsAndConditionFragment() {
                   </div>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item className="bg-white text-secondary focus:outline-none rounded font-semibold" value="tnc-2">
+              <Accordion.Item className="bg-white text-secondary focus:outline-none rounded font-semibold" value="tnc-3">
                 <Accordion.Trigger>Perubahan Ketentuan</Accordion.Trigger>
                 <Accordion.Body>
                   <div>
