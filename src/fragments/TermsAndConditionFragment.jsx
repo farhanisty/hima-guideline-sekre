@@ -17,8 +17,8 @@ export default function TermsAndConditionFragment() {
                   <div className="pl-3">
                     <ul className="list-decimal flex flex-col gap-2">
                       <li>Pengaju diharuskan mematuhi semua ketentuan waktu pengajuan proposal, surat, dan LPJ sesuai dengan regulasi yang telah ditetapkan.</li>
-                      <li>Biro Kesekretariatan berhak menolak jika pengajuan dokumen melanggar ketentuan yang berlaku.</li>
-                      <li>Pengajuan dokumen yang terlambat atau tidak mengikuti aturan waktu pengajuan tidak akan diperiksa oleh Biro Kesekretariatan. Namun, jika ada alasan khusus, bisa mendapatkan pengecualian.</li>
+                      <li>Sekretaris berhak menolak jika pengajuan dokumen melanggar ketentuan yang berlaku.</li>
+                      <li>Pengajuan dokumen yang terlambat atau tidak mengikuti aturan waktu pengajuan tidak akan diperiksa oleh Sekretaris. Namun, jika ada alasan khusus, bisa mendapatkan pengecualian.</li>
                     </ul>
                   </div>
                 </Accordion.Body>
@@ -28,7 +28,7 @@ export default function TermsAndConditionFragment() {
                 <Accordion.Body>
                   <div className="pl-3">
                     <ul className="list-decimal flex flex-col gap-2">
-                      <li>Biro Kesekretariatan <span className="font-bold">tidak bertanggung jawab</span> atas <span className="font-bold">keterlambatan</span> pemrosesan dokumen yang disebabkan oleh <span className="font-bold">kelalaian pengaju</span> atau <span className="font-bold">pengajuan di luar tenggat waktu</span>.</li>
+                      <li>Sekretaris <span className="font-bold">tidak bertanggung jawab</span> atas <span className="font-bold">keterlambatan</span> pemrosesan dokumen yang disebabkan oleh <span className="font-bold">kelalaian pengaju</span> atau <span className="font-bold">pengajuan di luar tenggat waktu</span>.</li>
                       <li>Segala <span className="font-bold">kerusakan</span> atau <span className="font-bold">kehilangan</span> barang inventaris <span className="font-bold">akibat kelalaian peminjam</span> akan menjadi <span className="font-bold">tanggung jawab peminjam sepenuhnya</span>.</li>
                     </ul>
                   </div>
@@ -38,7 +38,7 @@ export default function TermsAndConditionFragment() {
                 <Accordion.Trigger>Perubahan Ketentuan</Accordion.Trigger>
                 <Accordion.Body>
                   <div>
-                    Biro Kesekretariatan berhak untuk mengubah atau memperbarui TNC ini kapan saja tanpa pemberitahuan sebelumnya. Pengurus HIMASISFO diharapkan untuk selalu memeriksa pembaruan ketentuan secara berkala.
+                    Sekretaris berhak untuk mengubah atau memperbarui TNC ini kapan saja tanpa pemberitahuan sebelumnya. Pengurus HIMASISFO diharapkan untuk selalu memeriksa pembaruan ketentuan secara berkala.
                   </div>
                 </Accordion.Body>
               </Accordion.Item>

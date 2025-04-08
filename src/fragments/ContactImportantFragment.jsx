@@ -11,8 +11,8 @@ export default function ContactImportantFragment() {
               <Card.Header title="Contact Person :" />
               <Card.Body>
                   <ul>
-                    <li>Rake Putri Cahyani (<a className="underline hover:text-red-200" href="https://google.com">085292934249</a>)</li>
-                    <li>Najwa Egi (<a className="underline hover:text-red-200" href="https://google.com">085292934249</a>)</li>
+                    <li>Rake Putri (<a className="underline hover:text-red-200" href="https://wa.me/6285800616542">085800616542</a>)</li>
+                    <li>Najwa Egi (<a className="underline hover:text-red-200" href="https://wa.me/6285225737863">085225737863</a>)</li>
                   </ul>
               </Card.Body>
             </Card>
@@ -20,10 +20,9 @@ export default function ContactImportantFragment() {
               <Card.Header title="Quick Links :" />
               <Card.Body>
                   <ul>
-                    <li>Scribbletary: https://bit.ly/SCRIBBLETARY2024</li>
-                    <li>Guidelines Scribbletary: https://bit.ly/GUIDLINESCRIBBLETARY</li>
-                    <li>Documents Format: [Documents Format 2024]</li>
-                    <li>Surat Pernyataan Penggunaan Ruang Seminar: [link]</li>
+                    <li>Scribbletary: (<a className="underline hover:text-red-200" href="https://bit.ly/SCRIBBLETARY2025">https://bit.ly/SCRIBBLETARY2025</a>)</li>
+                    <li>Guidelines Scribbletary: (<a className="underline hover:text-red-200" href="https://bit.ly/GUIDLINESCRIBBLETARY2025">https://bit.ly/GUIDLINESCRIBBLETARY2025</a>)</li>
+                    <li>Documents Format: (<a className="underline hover:text-red-200" href="https://drive.google.com/drive/folders/1K-kUHyVkqHvQYssKf57IVGDy_Yx5XISh">Document Format 2025</a>)</li>
                   </ul>
               </Card.Body>
             </Card>

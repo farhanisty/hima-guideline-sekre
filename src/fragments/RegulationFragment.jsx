@@ -14,7 +14,7 @@ export default function RegulationFragment() {
                 <Accordion.Body>
                   <div className="pl-3">
                     <ul className="list-decimal flex flex-col gap-2">
-                      <li>Pengajuan dokumen seperti surat-surat, proposal kegiatan, dan laporan pertanggungjawaban harus sesuai dengan tenggat waktu yang ditetapkan oleh Biro Kesekretariatan HIMASISFO.</li>
+                      <li>Pengajuan dokumen seperti surat-surat, proposal kegiatan, dan laporan pertanggungjawaban harus sesuai dengan tenggat waktu yang ditetapkan oleh Sekretaris HIMASISFO.</li>
                       <li>Semua pengajuan yang dilakukan di luar jam kerja tidak akan diproses. Pengajuan harus diajukan kembali saat jam kerja, kecuali jika ada keadaan mendesak.</li>
                     </ul>
                   </div>
@@ -26,7 +26,7 @@ export default function RegulationFragment() {
                   <div className="pl-3">
                     <ul className="list-decimal flex flex-col gap-2">
                       <li>Semua dokumen kegiatan, termasuk proposal, surat-menyurat, dan Laporan Pertanggungjawaban (LPJ), harus diarsipkan secara digital dan/atau fisik.</li>
-                      <li>Pengarsipan dilakukan sesuai format yang telah ditetapkan oleh Biro Kesekretariatan dan harus tersedia untuk pengecekan kapan saja jika diperlukan.</li>
+                      <li>Pengarsipan dilakukan sesuai format yang telah ditetapkan oleh Sekretaris dan harus tersedia untuk pengecekan kapan saja jika diperlukan.</li>
                     </ul>
                   </div>
                 </Accordion.Body>
