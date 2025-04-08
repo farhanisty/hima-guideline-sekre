@@ -1,6 +1,6 @@
 import Container from "../components/Container"
 import SectionTitle from "../components/SectionTitle"
-import ScheduleImage from "../assets/schedule.png"
+import ScheduleImage from "../assets/TIMELINE.png"
 
 export default function TimelineFragment() {
   return (

@@ -14,16 +14,13 @@ export default function WarningFragment() {
           <div className="text-white mt-4 pl-5">
             <ul className="list-disc flex flex-col gap-3">
               <li>
-                Disarankan untuk mengajukan <span className="text-red-400">surat izin penggunaan tempat 21 hari</span> sebelum kegiatan dilaksanakan ke Ruang Pelayanan Mahasiswa Fakultas Teknik Industri
+               Pengajuan proposal kepada Sekretaris paling lambat 14 hari sebelum proposal diajukan ke jurusan, fakultas, maupun universitas. Sekretaris tidak akan melakukan pengecekan jika pengajuan proposal <span className="text-red-400">kurang dari 14 hari</span> sebelum pengajuan ke jurusan, fakultas, maupun universitas.   
               </li>
               <li>
-                Disarankan untuk mengajukan surat izin kegiatan maksimal 14 hari sebelum kegiatan dilaksanakan ke Ruang Pelayanan Mahasiswa Fakultas Teknik Industri
+               Pengumpulan laporan pertanggungjawaban program kerja ke Himpunan maksimal 14 hari setelah kegiatan dilaksanakan. Jika melebihi waktu yang sudah ditentukan maka akan dikenakan sanksi berupa denda Rp 1.000,-/24jam.  
               </li>
               <li>
-                Pengajuan Proposal dapat dilakukan bersamaan dengan Surat Izin Kegiatan
-              </li>
-              <li>
-                Penggunaan ruang seminar informatika harus disertai dengan surat pernyataan dan kartu tanda mahasiswa kepada petugas atau jurusan atau prodi atau kepada pihak yang ditunjuk oleh ketua jurusan.
+               Jika laporan pertanggungjawaban program kerja A belum selesai maka, program kerja B tidak bisa dijalankan. 
               </li>
             </ul>
           </div>
